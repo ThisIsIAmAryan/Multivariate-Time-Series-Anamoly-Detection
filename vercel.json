@@ -1,6 +1,7 @@
 {
-  "buildCommand": "cd anomaly-detection-frontend && npm run build",
-  "outputDirectory": "anomaly-detection-frontend/.next",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
   "framework": "nextjs",
-  "installCommand": "cd anomaly-detection-frontend && npm install --legacy-peer-deps"
+  "installCommand": "npm install --legacy-peer-deps",
+  "rootDirectory": "anomaly-detection-frontend"
 }

@@ -1,0 +1,27 @@
+{
+  "name": "multivariate-time-series-anomaly-detection",
+  "version": "1.0.0",
+  "description": "Multivariate Time Series Anomaly Detection System with ML Backend and React Frontend",
+  "main": "anomaly_detection.py",
+  "scripts": {
+    "dev": "cd anomaly-detection-frontend && npm run dev",
+    "build": "cd anomaly-detection-frontend && npm run build",
+    "start": "cd anomaly-detection-frontend && npm start",
+    "install-frontend": "cd anomaly-detection-frontend && npm install --legacy-peer-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThisIsIAmAryan/Multivariate-Time-Series-Anamoly-Detection.git"
+  },
+  "keywords": [
+    "anomaly-detection",
+    "time-series",
+    "machine-learning",
+    "react",
+    "nextjs",
+    "python",
+    "scikit-learn"
+  ],
+  "author": "ThisIsIAmAryan",
+  "license": "MIT"
+}
