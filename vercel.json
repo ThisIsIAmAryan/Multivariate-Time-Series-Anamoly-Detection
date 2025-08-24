@@ -2,6 +2,5 @@
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
   "framework": "nextjs",
-  "installCommand": "npm install --legacy-peer-deps",
-  "rootDirectory": "anomaly-detection-frontend"
+  "installCommand": "npm install --legacy-peer-deps"
 }
