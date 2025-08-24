@@ -214,7 +214,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**[Your Name]**
+**Aryan Sharma**
 - GitHub: [@ThisIsIAmAryan](https://github.com/ThisIsIAmAryan)
 - Project: [Multivariate Time Series Anomaly Detection](https://github.com/ThisIsIAmAryan/Multivariate-Time-Series-Anamoly-Detection)
 

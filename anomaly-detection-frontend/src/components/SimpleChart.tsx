@@ -73,8 +73,9 @@ export function SimpleLineChart({ data, width = 600, height = 300 }: SimpleChart
               r="3"
               fill={color}
               className="hover:r-5 transition-all cursor-pointer"
-              title={`${d.Time}: ${d.abnormality_score.toFixed(2)}`}
-            />
+            >
+              <title>{`${d.Time}: ${d.abnormality_score.toFixed(2)}`}</title>
+            </circle>
           );
         })}
       </svg>
@@ -123,8 +124,9 @@ export function SimplePieChart({ data }: { data: { name: string; value: number; 
                 stroke="white"
                 strokeWidth="2"
                 className="hover:opacity-80 cursor-pointer"
-                title={`${segment.name}: ${segment.value} (${(segment.value/total*100).toFixed(1)}%)`}
-              />
+              >
+                <title>{`${segment.name}: ${segment.value} (${(segment.value/total*100).toFixed(1)}%)`}</title>
+              </path>
             );
           })}
         </svg>
